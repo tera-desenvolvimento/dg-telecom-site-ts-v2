@@ -1,0 +1,40 @@
+.main-banner {
+    width: -webkit-fill-available;
+    background-image: url("../img/banner-dg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloco-banner-left img {
+    max-width: 750px;
+    margin-bottom: -120px;
+}
+
+.cta-link {
+    font-family: "utendo-bold";
+    text-decoration: none;
+    color: #002AEE;
+    background-color: #FFFFFF;
+    padding: 8px 20px;
+    vertical-align: middle;
+    border-radius: 4px;
+    height: fit-content;
+    margin-left: -14rem;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #022162;
+}
+
+.banner-info span {
+    font-family: "utendo-bold";
+}

@@ -1,0 +1,100 @@
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding-bottom: 100px;
+    background-color: #0012E4;
+    padding: 100px;
+}
+
+.faq-wrapper > * {
+    width: 50%;
+}
+
+.faq-wrapper {
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+    width: -webkit-fill-available;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.title-wrapper span {
+    font-size: 2rem;
+    font-family: "utendo-bold";
+    color: #FFFFFF;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.faq-item .dropdown-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    background-color: #F6F2EF;
+    border-radius: 25px;
+    font-family: sf-bold;
+    cursor: pointer;
+}
+
+.faq-item .dropdown-button span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #0012E4;
+}
+
+.faq-item .dropdown-button img {
+    width: 20px;
+}
+
+.faq-item .dropdown-element {
+    padding: 10px 30px;
+    animation: dropdown 2s;
+}
+
+.faq-item .dropdown-element.hide {
+    display: none;
+    animation: dropdown-hide 1s;
+}
+
+.faq-item .dropdown-element p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+@keyframes dropdown {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 1000px;
+    }
+    
+}
+
+@keyframes dropdown-hide {
+    from {
+        max-height: 1000px;
+    }
+    to {
+        max-height: 0;
+    }
+    
+}
+

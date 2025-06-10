@@ -1,0 +1,9 @@
+.billboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.billboard-container img {
+    height: 300px;
+}

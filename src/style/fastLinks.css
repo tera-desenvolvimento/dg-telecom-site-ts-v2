@@ -1,0 +1,44 @@
+.fast-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.fast-links-container b {
+    font-family: "utendo-bold";
+    color: #0B64B9;
+    font-size: 30px;
+}
+
+.fast-links-wrapper {
+    display: flex;
+    gap: 100px;
+}
+
+.fast-links-wrapper .link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fast-links-wrapper .link-item img {
+    height: 40px;
+}
+
+.fast-links-wrapper .link-item span {
+    font-family: "utendo-bold";
+    color: #0B64B9;
+}
+
+.fast-links-wrapper .link-item a {
+    text-decoration: none;
+    font-family: "utendo-bold";
+    background-color: #022162;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
