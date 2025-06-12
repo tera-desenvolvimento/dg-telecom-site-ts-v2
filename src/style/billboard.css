@@ -7,3 +7,10 @@
 .billboard-container img {
     height: 300px;
 }
+
+.billboard-container-mob{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+}

@@ -35,6 +35,35 @@
     background-color: #022162;
 }
 
-.banner-info span {
+.banner-info span, .mob-auto-scroll span {
     font-family: "utendo-bold";
+    text-align: center;
+}
+
+.mob-auto-scroll span {
+    position: absolute;
+    animation: scroll-horizontal 20s linear infinite;
+    animation-delay: 0s;
+}
+
+.mob-auto-scroll {
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    padding: 20px;
+    margin-top: -5px;
+    color: #FFFFFF;
+    background-color: #022162;
+    overflow-x: hidden;
+    position: relative;
+}
+
+@keyframes scroll-horizontal {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
 }

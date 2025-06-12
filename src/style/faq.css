@@ -98,3 +98,18 @@
     
 }
 
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 50px 10px;
+        
+    }
+
+    .faq-wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .faq-wrapper > * {
+        width: unset;
+    }
+}

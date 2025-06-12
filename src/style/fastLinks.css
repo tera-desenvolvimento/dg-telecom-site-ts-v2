@@ -42,3 +42,22 @@
     text-align: center;
     border-radius: 10px;
 }
+
+@media(max-width: 768px) {
+    .fast-links-wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .fast-links-wrapper .link-item {
+        gap: 10px;
+    }
+
+    .fast-links-wrapper .link-item img {
+        height: 60px;
+    }
+
+    .fast-links-wrapper .link-item span {
+        font-size: 18px;
+    }
+}

@@ -17,7 +17,7 @@ function App() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
+    speed: 500,
     autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [

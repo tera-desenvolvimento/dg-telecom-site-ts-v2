@@ -1,3 +1,5 @@
+/* Header Desktop */
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -48,4 +50,86 @@
 .nav-icon {
     margin-right: 5px;
     height: 15px;
+}
+
+/* Header Mobile */
+
+.header-container-mob {
+    display: flex;
+    padding: 20px 10px;
+    position: relative;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    background-color: #E6EEFF;
+    z-index: 10;
+}
+
+.header-container-mob .left-wrapper, .header-container-mob .right-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-container-mob button#toggleMenu {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container-mob .logo-header-mob {
+    height: 25px;
+}
+
+.head-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.head-link.customer-area {
+    background-color: #083FF0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.header-container-mob .social-link {
+    height: fit-content;
+    margin-top: 3px;
+}
+
+.header-container-mob .social-icon {
+    height: 30px;
+}
+
+.nav-container-mob {
+    position: absolute;
+    left: 10px;
+    margin-top: -500px;
+    padding: 5px;
+    background: #e6eeff88;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    z-index: 8;
+}
+
+.nav-container-mob .menu-list-mob {
+    list-style: none;
+}
+
+.nav-container-mob.active {
+    margin-top: 10px;
+}
+
+.menu-list-mob .nav-link {
+    font-size: 20px;
+}
+
+.menu-list-mob .nav-link .nav-icon {
+    height: 18px;
 }
