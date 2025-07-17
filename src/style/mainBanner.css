@@ -42,7 +42,7 @@
 
 .mob-auto-scroll span {
     position: absolute;
-    animation: scroll-horizontal 20s linear infinite;
+    animation: scroll-horizontal 10s linear infinite;
     animation-delay: 0s;
 }
 
@@ -59,11 +59,6 @@
 }
 
 @keyframes scroll-horizontal {
-    0% {
-        left: 100%;
-    }
-
-    100% {
-        left: -100%;
-    }
+    0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
 }
