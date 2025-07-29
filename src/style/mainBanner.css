@@ -42,7 +42,7 @@
 
 .mob-auto-scroll span {
     position: absolute;
-    animation: scroll-horizontal 10s linear infinite;
+    animation: scroll-horizontal 20s linear infinite;
     animation-delay: 0s;
 }
 

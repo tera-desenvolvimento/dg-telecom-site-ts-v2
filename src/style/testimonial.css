@@ -48,3 +48,42 @@
 .slick-arrow {
     display: none !important;
 }
+
+.slider-testimonial {
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	
+	&::before,
+	&::after {
+        background-color: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+		content: "";
+		height: fit-content;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll 60s linear infinite;
+		display: flex;
+		gap: 10px;
+		width: calc(250px * 14);
+	}
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}

@@ -9,7 +9,7 @@ import "../style/plansWrapper.css";
 function PlansWrapper() {
     return(
         <React.Fragment>
-            <div className="plans-container">
+            <div className="plans-container" id="plans">
                 <b>Conheça nossos planos</b>
                 <div className="plans-wrapper">
                     <div className="plan-item">

@@ -54,21 +54,6 @@ function Footer() {
                                     <img src={instagramIcon} className="social-icon" />
                                 </a>
                             </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={fbIcon} className="social-icon" />
-                                </a>
-                            </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={ytIcon} className="social-icon" />
-                                </a>
-                            </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={xIcon} className="social-icon" />
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
